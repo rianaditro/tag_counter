@@ -13,7 +13,8 @@ def count_tag(tag,html):
     soup = BeautifulSoup(html,"html.parser")
     get_tag = soup.find_all(tag)
     count = len(get_tag)
-    print(f"{count} of <{tag}> tag contained.")    
+    print(f"{count} of <{tag}> tag contained.")   
+    return count 
 
 if __name__=="__main__":
     url = "https://books.toscrape.com/"
