@@ -6,7 +6,7 @@ Analyze-HTML is a project that read your html tag and count for appearence
 
 ### Typer CLI
 There are several upgrade function on Typer CLI
-**generate-html**
-Return html, to save locally add --save-to-local=True
-**count-tag-from-local**
-**count-tag-from-url**
+\n**generate-html**
+\nReturn html, to save locally add --save-to-local=True
+\n**count-tag-from-local**
+\n**count-tag-from-url**
